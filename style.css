@@ -1,0 +1,161 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #444444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(52, 37, 65);
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.portfolio-item br {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.centered-portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medium-image {
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Additional styles for the single big image centered on WEDD.html */
+body.wedding-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main.wedding-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wedding-page .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wedding-page .portfolio-item {
+    width: 80%;
+    max-width: 800px;
+}
+
+.wedding-page .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+}
